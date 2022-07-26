@@ -9,6 +9,14 @@
     ]
   },
   "Packages": {
+    "box": {
+      "Package": "box",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ce26ca183b64788ca4c2ae30ec5876d6",
+      "Requirements": []
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.15.5",
