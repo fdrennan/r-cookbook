@@ -1,0 +1,26 @@
+---
+title: "R Cookbook"
+output:
+  html_document:
+    df_print: paged
+---
+
+Thanks for visiting! This repository is set up to guide you through learning R.
+
+This collection of code and documentation is stored at [GitHub](https://github.com/fdrennan/r-cookbook).
+
+I recommend setting up your projects with [Git](https://git-scm.com/).
+
+You should also [read about and set up SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). There is a [useful guide](https://happygitwithr.com/ssh-keys.html#ssh-keys) for setting this up as well in RStudio.
+
+Programming isn't that hard. We just need to know how to think about programming. The first thing is that R is a functional language. What does that mean exactly? It means that put things in things to get things done.
+
+Have you ever bought a plugin for software like Pro Tools or Photoshop?Auto-tune - popularized by Cher and t-pain, is software that plugs into (plug-in) audio software like Logic and ProTools, and video suites like Premier. Think of R packages as plugins. You have a set of basic tools installed in R, but generally speaking you want to do more that what is given to you.
+
+So first thing first - [look at what is given to you.](https://stat.ethz.ch/R-manual/R-devel/library/base/html/00Index.html). Before you do anything else, look at this list of *base R functions*.
+
+```{r}
+
+```
+
+.
