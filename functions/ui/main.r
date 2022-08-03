@@ -1,17 +1,16 @@
 #' @export
-ui_main <- function(id='main') {
+ui_main <- function(id = "main") {
   box::use(shiny[uiOutput, NS])
   ns <- NS(id)
   uiOutput(ns("screen"))
 }
 
 #' @export
-server_main <- function(id='main') {
+server_main <- function(id = "main") {
   box::use(shiny[moduleServer, renderUI])
   moduleServer(
     id,
     function(input, output, session) {
-      
       output$screen <- renderUI({
         box::use(
           shiny[tags, withTags, div], bs4Dash[
@@ -23,7 +22,7 @@ server_main <- function(id='main') {
             dashboardFooter
           ]
         )
-        
+
         dashboardPage(
           dashboardHeader(compact = TRUE, disable = TRUE),
           dashboardSidebar(disable = TRUE),
@@ -31,7 +30,6 @@ server_main <- function(id='main') {
             withTags(
               div(
                 class = "p-5",
-                
               )
             )
           ),
