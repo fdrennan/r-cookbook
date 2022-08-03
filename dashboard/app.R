@@ -1,7 +1,7 @@
 library(shiny)
 ui <- function() {
-  div('Hello')
-} 
+  div("Hello")
+}
 server <- function(input, output) {
 
 }

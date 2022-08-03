@@ -1,4 +1,4 @@
 #' @export
-hello = function (name) {
-  message('Hello, ', name, '!')
+hello <- function(name) {
+  message("Hello, ", name, "!")
 }
