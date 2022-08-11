@@ -1,13 +1,11 @@
-
-
-box::use(. / functions / ui)
+box::use(./functions/ui/main)
 
 ui <- function() {
-  ui$ui_main()
+  main$ui_main()
 }
 
 server <- function(input, output, session) {
-  ui$server_main()
+  main$server_main()
 }
 
 box::use(shiny[shinyApp])
